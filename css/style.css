@@ -1,4 +1,5 @@
 /* padding/margin: T R B L */
+ /* https://github.com/revou-fundamental-course/26-jun-23-qvixoteee.git */
 
 body{
     margin: 0 0 0 0;
@@ -166,9 +167,92 @@ article h3{
     color: #77838f;
 }
 
-
 /* ---------------FORM--------------- */
 
+#form {
+    flex-basis: 26%;
+    flex-grow: 0;
+    background-color: #dcf3f0;
+    border-radius: 5px;
+    padding: 35px 55px 3px 55px;
+    color: #3b4754;
+    height: 650px;
+}
+
+#form h1 {
+    color: #3b4754;
+    margin-bottom: 50px;
+}
+
+#form p {
+    color: #77838f;
+}
+
+#form button {
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background-color: #439287;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #28766c;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+    font-size: medium;
+    color: #3b4754;
+}
+
+.input-control input {
+    border: 2px solid #dceae6;
+	border-radius: 10px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-control #messages {
+    height: 70px;
+    border-radius: 15px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+/* 
 #form {
     flex-basis: 26%;
     flex-grow: 0;
@@ -234,7 +318,7 @@ article h3{
 #submit:hover {
     background-color: #28766c;
     border: 2px solid #28766c;
-}
+} */
 
  /* ---------------OUR PACKAGE SECTION--------------- */
 
@@ -370,4 +454,3 @@ article h3{
     color: rgb(80, 78, 78);
  }
 
- /* https://github.com/revou-fundamental-course/26-jun-23-qvixoteee.git */
