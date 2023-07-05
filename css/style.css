@@ -6,7 +6,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-                            /*---------HEADER SECTION--------- */
+/*---------HEADER SECTION--------- */
 header {
     padding-bottom: 50px;
 }
@@ -170,13 +170,13 @@ article h3{
 /* ---------------FORM--------------- */
 
 #form {
-    flex-basis: 26%;
-    flex-grow: 0;
+    
     background-color: #dcf3f0;
     border-radius: 5px;
     padding: 35px 55px 3px 55px;
     color: #3b4754;
     height: 650px;
+    width: 280px;
 }
 
 #form h1 {
@@ -454,3 +454,33 @@ article h3{
     color: rgb(80, 78, 78);
  }
 
+
+/* ----------MEDIA QUERY---------- */
+
+ @media only screen and (max-width: 600px){
+    
+    #navigationbar {
+        flex-direction: column;
+        padding: 3px;
+        align-items: center;
+    }
+
+    #logo {
+        height: 30px;
+    }
+
+    #title {
+        font-size: x-large;
+    }
+
+    #subtitle {
+        font-size: medium;
+    }
+
+    #banner {
+        text-align: center;
+        margin: 50px auto 20px auto;
+        width: 70%;
+    }
+
+ }
