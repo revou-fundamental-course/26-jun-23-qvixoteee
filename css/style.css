@@ -82,7 +82,9 @@ article {
 }
 
 article img {
-    max-width: 100%;
+    width: 650px;
+    height: 440px;
+    object-fit: cover;
     border-radius: 5px;   
 }
 
@@ -481,6 +483,17 @@ article h3{
         text-align: center;
         margin: 50px auto 20px auto;
         width: 70%;
+    }
+
+    article img {
+        width: 520px;
+        height: 352px;
+        object-fit: cover;
+        border-radius: 5px;   
+    }
+
+    header {
+        padding-bottom: 10px;
     }
 
  }
